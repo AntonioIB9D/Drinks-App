@@ -5,6 +5,8 @@ Buscador de bebidas ✨
 La aplicación permite: 
 
 1. Buscar bebidas en base a una categoría y un ingrediente. 🔍
+2. En base a la busqueda se genera un listado de bebidas disponibles. 🟢
+3. Permite visualizar la bebida de su preferencia. 📄
 
 ---
 
