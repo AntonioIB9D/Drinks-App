@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+  background-color: rgb(237, 114, 103);
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.card-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image img {
+  max-width: 12rem;
+  border-radius: 1rem;
+}
+
+.card-title {
+  justify-content: center;
+  font-family: quicksand;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.card-button {
+  width: 100%;
+}
+
+.card-button button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-family: quicksand;
+  font-weight: 600;
+  font-size: 14px;
+  width: 100%;
+}
+
+.p-instructions {
+  font-size: 1rem;
+  font-weight: 500;
+}
