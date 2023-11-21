@@ -10,14 +10,14 @@ export const drinkSlice = createSlice({
   name: 'drinks',
   initialState,
   reducers: {
-    consultCategory: (state, action) => {
-      state.categoria = action.payload.categorylist;
+    consultCategory: (state, { payload }) => {
+      state.categoria = payload.categorylist;
     },
-    resultadoBebidas: (state, action) => {
-      state.bebidas = action.payload.drinklist;
+    resultadoBebidas: (state, { payload }) => {
+      state.bebidas = payload.drinklist;
     },
-    bebidaSeleccionada: (state, action) => {
-      state.bebidaSeleccionada = action.payload.drinkselect;
+    bebidaSeleccionada: (state, { payload }) => {
+      state.bebidaSeleccionada = payload.drinkselect;
     },
   },
 });

@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import './card.css';
 import ModalDrink from './ModalDrink';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { consultReceta } from '../redux/thunks';
+import './card.scss';
 
 const Card = ({ bebida }) => {
   const { idDrink, strDrink, strDrinkThumb } = bebida;
@@ -12,12 +12,12 @@ const Card = ({ bebida }) => {
   const dispatch = useDispatch();
   return (
     <>
-      <div className="card">
-        <div className="card-image">
+      <div className="cardS">
+        <div className="cardS-image">
           <img src={strDrinkThumb} alt="Imagen de bebida" />
         </div>
-        <div className="card-title">{strDrink}</div>
-        <div className="card-button">
+        <div className="cardS-title">{strDrink}</div>
+        <div className="cardS-button">
           <button
             onClick={() => {
               setModalShow(true);
