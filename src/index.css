@@ -1,6 +1,13 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./font/Quicksand.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: quicksand;
+  font-family: Quicksand;
   background-color: #13142a;
   padding: 1.2rem;
 }
