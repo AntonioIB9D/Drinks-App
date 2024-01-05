@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { consultBebidas, consultaCategoria } from './redux/thunks';
 import { useDispatch, useSelector } from 'react-redux';
-import Card from './component/card';
+import Card from './Components/Card';
 
 function App() {
   const { categoria, bebidas } = useSelector((state) => state.drinks);

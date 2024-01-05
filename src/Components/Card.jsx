@@ -37,8 +37,8 @@ const Card = ({ bebida }) => {
   );
 };
 
-export default Card;
-
 Card.propTypes = {
   bebida: PropTypes.object,
 };
+
+export default Card;
